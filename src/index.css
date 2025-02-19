@@ -1,0 +1,88 @@
+@import 'tailwindcss';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  background: #0a0a0a;
+  color: #f3f4f6;
+}
+
+/* Loading Screen animation */
+@layer utilities {
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
+  }
+
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading-bar {
+    animation: loading 0.8s ease infinite;
+  }
+}
+
+/* Tabs animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.animate-fadeOut {
+  animation: fadeOut 0.3s ease-in-out;
+}
+
+/* Custom points */
+.custom-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.custom-list li {
+  color: inherit;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
