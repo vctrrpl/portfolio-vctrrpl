@@ -1,4 +1,9 @@
 export const Home = () => {
+  const handleScroll = (event, targetId) => {
+    event.preventDefault();
+    document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section
       id="home"
@@ -25,6 +30,7 @@ export const Home = () => {
         <div className="flex justify-center space-x-4">
           <a
             href="#projects"
+            onClick={(e) => handleScroll(e, 'projects')}
             className="bg-orange-500 text-white py-3 px-6 rounded font-medium transition
               relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_amber-400/80]"
           >
@@ -32,6 +38,7 @@ export const Home = () => {
           </a>
           <a
             href="#contact"
+            onClick={(e) => handleScroll(e, 'contact')}
             className="border border-white/50 text-white py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_white/20] "
           >
             Contact Me
