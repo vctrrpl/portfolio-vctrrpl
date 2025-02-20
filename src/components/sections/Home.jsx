@@ -35,13 +35,13 @@ export const Home = ({ isLoaded }) => {
             if (isMounted.current) {
               setShowCursor(false); // Hide cursor after 5s
             }
-          }, 5000);
+          }, 3400);
         }
-      }, 100);
+      }, 160);
 
       // Cleanup for the interval (runs if component unmounts during typing)
       return () => clearInterval(interval);
-    }, 1000); // x-second delay
+    }, 900); // x-second delay
 
     // Cleanup for the delayTimer (runs if component unmounts before delay ends)
     return () => clearTimeout(delayTimer);
