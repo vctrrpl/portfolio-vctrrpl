@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import PropTypes from 'prop-types';
-import SmoothScroll from './SmoothScroll';
+import { SmoothScroll } from './SmoothScroll';
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {

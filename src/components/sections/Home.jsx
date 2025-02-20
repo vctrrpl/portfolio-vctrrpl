@@ -1,4 +1,4 @@
-import SmoothScroll from '../SmoothScroll';
+import { SmoothScroll } from '../SmoothScroll';
 
 export const Home = () => {
   return (
