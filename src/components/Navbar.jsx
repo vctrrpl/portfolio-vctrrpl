@@ -1,20 +1,12 @@
 import { useEffect } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import PropTypes from 'prop-types';
+import SmoothScroll from './SmoothScroll';
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : '';
   }, [menuOpen]);
-
-  const handleScroll = (e, targetId) => {
-    e.preventDefault();
-    setMenuOpen(false);
-    const targetElement = document.getElementById(targetId);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <nav className="fixed top-0  w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
@@ -34,34 +26,34 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
           {/* Menu Items */}
           <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="#home"
-              onClick={(e) => handleScroll(e, 'home')}
+            <SmoothScroll
+              targetId="home"
+              onClick={() => setMenuOpen(false)}
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Home
-            </a>
-            <a
-              href="#about"
-              onClick={(e) => handleScroll(e, 'about')}
+            </SmoothScroll>
+            <SmoothScroll
+              targetId="about"
+              onClick={() => setMenuOpen(false)}
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               About
-            </a>
-            <a
-              href="#projects"
-              onClick={(e) => handleScroll(e, 'projects')}
+            </SmoothScroll>
+            <SmoothScroll
+              targetId="projects"
+              onClick={() => setMenuOpen(false)}
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Projects
-            </a>
-            <a
-              href="#contact"
-              onClick={(e) => handleScroll(e, 'contact')}
+            </SmoothScroll>
+            <SmoothScroll
+              targetId="contact"
+              onClick={() => setMenuOpen(false)}
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Contact
-            </a>
+            </SmoothScroll>
           </div>
         </div>
       </div>

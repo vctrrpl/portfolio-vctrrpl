@@ -1,15 +1,11 @@
-export const Home = () => {
-  const handleScroll = (event, targetId) => {
-    event.preventDefault();
-    document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
-  };
+import SmoothScroll from '../SmoothScroll';
 
+export const Home = () => {
   return (
     <section
       id="home"
       className="min-h-screen flex items-center justify-center relative"
     >
-      {' '}
       <div className="text-center z-10 px-4">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 ">
           Hi, I&apos;m{' '}
@@ -28,21 +24,18 @@ export const Home = () => {
           I&apos;m a Frontend Web Developer based in Malaysia
         </p>
         <div className="flex justify-center space-x-4">
-          <a
-            href="#projects"
-            onClick={(e) => handleScroll(e, 'projects')}
-            className="bg-orange-500 text-white py-3 px-6 rounded font-medium transition
-              relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_amber-400/80]"
+          <SmoothScroll
+            targetId="projects"
+            className="bg-orange-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_amber-400/80]"
           >
             View Projects
-          </a>
-          <a
-            href="#contact"
-            onClick={(e) => handleScroll(e, 'contact')}
-            className="border border-white/50 text-white py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_white/20] "
+          </SmoothScroll>
+          <SmoothScroll
+            targetId="contact"
+            className="border border-white/50 text-white py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_white/20]"
           >
             Contact Me
-          </a>
+          </SmoothScroll>
         </div>
       </div>
     </section>
