@@ -53,7 +53,7 @@ export const education = [
     institution: 'Sigma School',
     duration: 'January 2024 - Present',
     description: `<ul>
-          <li>Conducted accident investigations and recommended preventive measures.</li>
+          <li>Software Development Course</li>
         </ul>`,
   },
   {
