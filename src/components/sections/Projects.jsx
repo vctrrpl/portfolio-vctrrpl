@@ -11,7 +11,7 @@ export const Projects = () => {
           My Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-zinc-500/30 hover:shadow-gray-300 transition">
+          <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1  transition">
             <h3 className="text-xl text-gray-400 font-bold mb-2">
               Product Store
             </h3>
@@ -29,7 +29,7 @@ export const Projects = () => {
               ].map((tech, index) => (
                 <span
                   key={index}
-                  className="bg-zinc-800/60 text-gray-400 py-1 px-3 rounded-full text-sm hover:bg-zinc-800/20 hover:shadow-gray-300 transition"
+                  className="bg-zinc-800/60 text-gray-400 py-1 px-3 rounded-full text-sm hover:bg-white/20 hover:text-white/70 hover:shadow-white transition"
                 >
                   {tech}
                 </span>
@@ -46,7 +46,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-zinc-500/30 hover:shadow-gray-300 transition">
+          <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1  transition">
             <h3 className="text-xl text-gray-400 font-bold mb-2">
               Product Store
             </h3>
@@ -64,7 +64,7 @@ export const Projects = () => {
               ].map((tech, index) => (
                 <span
                   key={index}
-                  className="bg-zinc-800/60 text-gray-400 py-1 px-3 rounded-full text-sm hover:bg-zinc-800/20 hover:shadow-gray-300 transition"
+                  className="bg-zinc-800/60 text-gray-400 py-1 px-3 rounded-full text-sm hover:bg-white/20 hover:text-white/70 hover:shadow-white transition"
                 >
                   {tech}
                 </span>
@@ -81,7 +81,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-zinc-500/30 hover:shadow-gray-300 transition">
+          <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1  transition">
             <h3 className="text-xl text-gray-400 font-bold mb-2">
               Product Store
             </h3>
@@ -99,7 +99,7 @@ export const Projects = () => {
               ].map((tech, index) => (
                 <span
                   key={index}
-                  className="bg-zinc-800/60 text-gray-400 py-1 px-3 rounded-full text-sm hover:bg-zinc-800/20 hover:shadow-gray-300 transition"
+                  className="bg-zinc-800/60 text-gray-400 py-1 px-3 rounded-full text-sm hover:bg-white/20 hover:text-white/70 hover:shadow-white transition"
                 >
                   {tech}
                 </span>
@@ -116,7 +116,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-zinc-500/30 hover:shadow-gray-300 transition">
+          <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1 transition">
             <h3 className="text-xl text-gray-400 font-bold mb-2">
               Product Store
             </h3>
@@ -134,7 +134,7 @@ export const Projects = () => {
               ].map((tech, index) => (
                 <span
                   key={index}
-                  className="bg-zinc-800/60 text-gray-400 py-1 px-3 rounded-full text-sm hover:bg-zinc-800/20 hover:shadow-gray-300 transition"
+                  className="bg-zinc-800/60 text-gray-400 py-1 px-3 rounded-full text-sm hover:bg-white/20 hover:text-white/70 hover:shadow-white transition"
                 >
                   {tech}
                 </span>
