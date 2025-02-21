@@ -35,7 +35,7 @@ export const Home = ({ isLoaded }) => {
             if (isMounted.current) {
               setShowCursor(false); // Hide cursor after 5s
             }
-          }, 3400);
+          }, 2800);
         }
       }, 100);
 
