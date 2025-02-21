@@ -25,12 +25,12 @@ export const workExperience = [
     location: 'Miri, Sarawak',
     duration: 'April 2021 - Present',
     description: `
-          <ul>
-            <li>Developed 30+ responsive websites using Elementor, achieving 42% higher conversion rates.</li>
-            <li>Optimized Flatsome theme for 10+ e-commerce sites, reducing load times by 35%.</li>
-            <li>Created custom WordPress solutions that cut development time by 25%.</li>
-          </ul>
-        `,
+      <ul>
+        <li>Developed 30+ responsive websites using Elementor, achieving 42% higher conversion rates.</li>
+        <li>Optimized Flatsome theme for 10+ e-commerce sites, reducing load times by 35%.</li>
+        <li>Created custom WordPress solutions that cut development time by 25%.</li>
+      </ul>
+    `,
   },
   {
     title: 'Site Safety Supervisor',
@@ -38,12 +38,12 @@ export const workExperience = [
     location: 'Bandar Seri Begawan, Brunei Darussalam',
     duration: 'April 2017 - 2020',
     description: `
-          <ul>
-            <li>Enforced safety protocols and conducted site inspections to ensure regulatory compliance.</li>
-            <li>Conducted risk assessments and implemented hazard mitigation strategies.</li>
-            <li>Delivered safety training and managed incident investigations.</li>
-          </ul>
-        `,
+      <ul>
+        <li>Enforced safety protocols and conducted site inspections to ensure regulatory compliance.</li>
+        <li>Conducted risk assessments and implemented hazard mitigation strategies.</li>
+        <li>Delivered safety training and managed incident investigations.</li>
+      </ul>
+    `,
   },
 ];
 
@@ -53,8 +53,8 @@ export const education = [
     institution: 'Sigma School',
     duration: 'January 2024 - Present',
     description: `<ul>
-          <li>Software Development Course</li>
-        </ul>`,
+      <li>Software Development Course</li>
+    </ul>`,
   },
   {
     title:
@@ -62,9 +62,56 @@ export const education = [
     institution: 'Asia e-University',
     duration: 'July 2017 - October 2018',
     description: `<ul>
-          <li>Gained foundational knowledge in occupational safety laws and standards.</li>
-          <li>Conducted accident investigations and recommended preventive measures.</li>
-          <li>Assisted in developing emergency response plans and safety reports.</li>
-        </ul>`,
+      <li>Gained foundational knowledge in occupational safety laws and standards.</li>
+      <li>Conducted accident investigations and recommended preventive measures.</li>
+      <li>Assisted in developing emergency response plans and safety reports.</li>
+    </ul>`,
+  },
+];
+
+export const footerMenus = [
+  {
+    title: 'Navigate',
+    items: [
+      { id: 'home', label: 'Home', isInternal: true },
+      { id: 'about', label: 'About', isInternal: true },
+      { id: 'projects', label: 'Projects', isInternal: true },
+      { id: 'contact', label: 'Contact', isInternal: true },
+    ],
+  },
+  {
+    title: 'Projects',
+    items: [
+      {
+        href: 'https://github.com/yourusername/project1',
+        label: 'Project 1',
+        isInternal: false,
+      },
+      {
+        href: 'https://github.com/yourusername/project2',
+        label: 'Project 2',
+        isInternal: false,
+      },
+      {
+        href: 'https://github.com/yourusername/project3',
+        label: 'Project 3',
+        isInternal: false,
+      },
+    ],
+  },
+  {
+    title: 'Socials',
+    items: [
+      {
+        href: 'https://www.linkedin.com/in/vctrrpl/',
+        label: 'LinkedIn',
+        isInternal: false,
+      },
+      {
+        href: 'https://github.com/vctrrpl',
+        label: 'GitHub',
+        isInternal: false,
+      },
+    ],
   },
 ];
