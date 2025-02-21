@@ -37,7 +37,7 @@ export const Home = ({ isLoaded }) => {
             }
           }, 3400);
         }
-      }, 160);
+      }, 100);
 
       // Cleanup for the interval (runs if component unmounts during typing)
       return () => clearInterval(interval);
