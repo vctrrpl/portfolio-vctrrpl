@@ -83,18 +83,23 @@ export const footerMenus = [
     title: 'Projects',
     items: [
       {
-        href: 'https://github.com/yourusername/project1',
+        href: '#',
         label: 'Project 1',
         isInternal: false,
       },
       {
-        href: 'https://github.com/yourusername/project2',
+        href: '#',
         label: 'Project 2',
         isInternal: false,
       },
       {
-        href: 'https://github.com/yourusername/project3',
+        href: '#',
         label: 'Project 3',
+        isInternal: false,
+      },
+      {
+        href: '#',
+        label: 'Project 4',
         isInternal: false,
       },
     ],
