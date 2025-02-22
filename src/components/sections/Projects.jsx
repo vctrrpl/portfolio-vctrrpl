@@ -12,9 +12,7 @@ export const Projects = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1  transition">
-            <h3 className="text-xl text-gray-400 font-bold mb-2">
-              Product Store
-            </h3>
+            <h3 className="text-xl text-gray-400 font-bold mb-2">Project 1</h3>
             <p className="text-gray-400 mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate, cum.
@@ -47,9 +45,7 @@ export const Projects = () => {
             </div>
           </div>
           <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1  transition">
-            <h3 className="text-xl text-gray-400 font-bold mb-2">
-              Product Store
-            </h3>
+            <h3 className="text-xl text-gray-400 font-bold mb-2">Project 2</h3>
             <p className="text-gray-400 mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate, cum.
@@ -82,9 +78,7 @@ export const Projects = () => {
             </div>
           </div>
           <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1  transition">
-            <h3 className="text-xl text-gray-400 font-bold mb-2">
-              Product Store
-            </h3>
+            <h3 className="text-xl text-gray-400 font-bold mb-2">Project 3</h3>
             <p className="text-gray-400 mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate, cum.
@@ -117,9 +111,7 @@ export const Projects = () => {
             </div>
           </div>
           <div className="p-6 rounded-xl border border-white/20 hover:-translate-y-1 transition">
-            <h3 className="text-xl text-gray-400 font-bold mb-2">
-              Product Store
-            </h3>
+            <h3 className="text-xl text-gray-400 font-bold mb-2">Project 4</h3>
             <p className="text-gray-400 mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate, cum.
