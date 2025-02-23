@@ -26,9 +26,9 @@ export const workExperience = [
     duration: 'April 2021 - Present',
     description: `
       <ul>
-        <li>Developed 30+ responsive websites using Elementor, achieving 42% higher conversion rates.</li>
-        <li>Optimized Flatsome theme for 10+ e-commerce sites, reducing load times by 35%.</li>
-        <li>Created custom WordPress solutions that cut development time by 25%.</li>
+        <li>Delivered innovative and professional webpage designs using Adobe Illustrator and Figma, and implemented WordPress designs with Flatsome and Elementor on over 90 web projects.</li>
+        <li>Participated in more than 160 projects across various industries in Singapore, ensuring outstanding customer experiences through clear communication with project coordinators and managers.</li>
+        <li>Played a key role in building a compelling company portfolio, highlighting the diversity and quality of completed projects, which contributed to achieving high client satisfaction rate.</li>
       </ul>
     `,
   },
