@@ -31,7 +31,7 @@ export const Projects = () => {
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
-                  'React',
+                  'React.js',
                   'Tailwind CSS',
                   'Node.js',
                   'ExpressJS',
