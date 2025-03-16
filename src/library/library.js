@@ -92,16 +92,6 @@ export const footerMenus = [
         label: 'Project 2',
         isInternal: false,
       },
-      {
-        href: '#',
-        label: 'Project 3',
-        isInternal: false,
-      },
-      {
-        href: '#',
-        label: 'Project 4',
-        isInternal: false,
-      },
     ],
   },
   {
