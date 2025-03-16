@@ -24,7 +24,7 @@ export const Projects = () => {
               </h3>
               <p className="text-gray-400 mb-4">
                 A full-stack e-commerce platform for badminton enthusiasts,
-                powered by Node.js and ExpressJS, Redis caching and Stripe
+                powered by Node.js and ExpressJS, with Redis caching and Stripe
                 payments. Featuring user authentication and a shopping cart, it
                 offers a responsive React.js and Tailwind CSS frontend.
               </p>
