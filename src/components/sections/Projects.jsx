@@ -48,7 +48,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://nova-sports.onrender.com"
                   className="text-gray-400 hover:text-orange-500 transition-colors my-4 flex items-center"
                 >
                   View Project
