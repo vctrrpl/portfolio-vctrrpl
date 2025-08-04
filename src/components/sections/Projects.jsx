@@ -64,12 +64,12 @@ export const Projects = () => {
           <div className="rounded-xl border border-white/20 hover:-translate-y-1 transition">
             <img
               src="/project-2-img.jpg"
-              alt="Nova Sports"
+              alt="LUFX-AI-Trainer"
               className="w-full h-auto object-cover rounded-t-xl"
             />
             <div className="p-6">
               <h3 className="text-xl text-gray-400 font-bold mb-2">
-                Project 2
+                LUFX AI Trainer
               </h3>
               <p className="text-gray-400 mb-4">
                 LUFX AI Trainer is a modern fitness application that uses AI to
