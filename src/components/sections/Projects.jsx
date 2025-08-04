@@ -110,12 +110,12 @@ export const Projects = () => {
           <div className="rounded-xl border border-white/20 hover:-translate-y-1 transition">
             <img
               src="/project-3-img.jpg"
-              alt="Lee Soon Seng Plastic Industries Sdn. Bhd."
+              alt="lsspi-img"
               className="w-full h-auto object-cover rounded-t-xl"
             />
             <div className="p-6">
               <h3 className="text-xl text-gray-400 font-bold mb-2">
-                LUFX AI Trainer
+                Lee Soon Seng Plastic Industries (LSSPI) Sdn. Bhd.
               </h3>
               <p className="text-gray-400 mb-4">
                 45-page WordPress website for a leading plastic manufacturer
