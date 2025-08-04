@@ -62,21 +62,29 @@ export const Projects = () => {
 
           {/* Project 2 */}
           <div className="rounded-xl border border-white/20 hover:-translate-y-1 transition">
+            <img
+              src="/project-2-img.jpg"
+              alt="Nova Sports"
+              className="w-full h-auto object-cover rounded-t-xl"
+            />
             <div className="p-6">
               <h3 className="text-xl text-gray-400 font-bold mb-2">
                 Project 2
               </h3>
               <p className="text-gray-400 mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate, cum.
+                LUFX AI Trainer is a modern fitness application that uses AI to
+                generate personalized workout and diet plans through voice
+                conversations. Built with Next.js 15, TypeScript, and a
+                cyberpunk-themed UI.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {[
-                  'React',
+                  'Next.js',
+                  'TypeScript',
+                  'VAPI',
                   'Tailwind CSS',
                   'Node.js',
-                  'ExpressJS',
-                  'PostgreSQL',
+                  'Convex',
                 ].map((tech, index) => (
                   <span
                     key={index}
